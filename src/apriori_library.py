@@ -1,3 +1,6 @@
+# NVT là 1 con chó
+
+
 # -*- coding: utf-8 -*-
 """
 Shopping Cart Library
