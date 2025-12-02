@@ -543,7 +543,7 @@ class DataVisualizer:
             df (pd.DataFrame): Transaction dataframe with CustomerID, InvoiceNo, TotalPrice
         """
         # Số giao dịch trên mỗi khách hàng
-        plt.figure(figsize=(10, 5))
+        plt.figure(figsize=(10, 6))
         transactions_per_customer = df.groupby("CustomerID")["InvoiceNo"].nunique()
         sns.histplot(transactions_per_customer, bins=30, kde=True)
         plt.title("Phân phối số giao dịch trên mỗi khách hàng")
