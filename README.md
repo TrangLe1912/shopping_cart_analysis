@@ -154,3 +154,6 @@ Trang Le
 
 📄 License
 MIT — sử dụng tự do cho nghiên cứu, học thuật và ứng dụng nội bộ.
+
+Nhom 7 CNTT 17-10
+S
